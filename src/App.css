@@ -1,0 +1,23 @@
+* {
+   font-family: Helvetica, sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   /* color: #707070; */
+   font-style: italic
+}
+
+.App {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+body{
+   background-color: #f7f7f7;
+}
+
+input::placeholder {
+   font-weight: bold;
+}
